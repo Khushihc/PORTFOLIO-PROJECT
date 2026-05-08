@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Khushi H.C | Full Stack Developer Portfolio</title>
+  <meta name="description" content="Portfolio of Khushi H.C – Final-year CS student, Full Stack Developer, Java enthusiast from Karnataka, India."/>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">KHC</div>
+  <ul class="nav-links">
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#certifications">Certifications</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="nav-actions">
+    <button id="theme-toggle" aria-label="Toggle theme">☀️</button>
+    <button class="menu-btn" id="menu-btn" aria-label="Open menu">☰</button>
+  </div>
+</nav>
+<div class="mobile-nav" id="mobile-nav">
+  <a href="#hero">Home</a>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#experience">Experience</a>
+  <a href="#certifications">Certifications</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <canvas id="hero-canvas" class="hero-canvas"></canvas>
+  <div class="hero-inner">
+    <div class="hero-text reveal">
+      <div class="hero-badge"><span class="pulse"></span> Open to Opportunities</div>
+      <h1>Hi, I'm <span>Khushi H.C</span></h1>
+      <div class="typed-wrap">&#62; <span id="typed"></span><span style="color:var(--accent2)">|</span></div>
+      <p>Final-year Computer Science student with strong skills in Java and Full Stack Development. Focused on applying problem-solving, coding, and database expertise to deliver efficient software solutions.</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">View Projects ↓</a>
+        <a href="#contact" class="btn btn-outline">Hire Me →</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><div class="stat-num">8.8</div><div class="stat-label">CGPA</div></div>
+        <div class="stat"><div class="stat-num">3+</div><div class="stat-label">Projects</div></div>
+        <div class="stat"><div class="stat-num">5+</div><div class="stat-label">Certifications</div></div>
+      </div>
+    </div>
+    <div class="hero-img-wrap reveal">
+      <div class="profile-ring">
+        <img src="images/profile.jpg" alt="Khushi H.C"/>
+      </div>
+      <div class="social-float">
+        <a href="https://linkedin.com/in/khushi-hc-046a132a" target="_blank" title="LinkedIn">in</a>
+        <a href="https://github.com/Khushihc" target="_blank" title="GitHub">&#123;&#125;</a>
+        <a href="mailto:khushihc.chakravarti@gmail.com" title="Email">✉</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-inner">
+    <span class="section-tag">// about me</span>
+    <h2 class="section-title">Who I <span>Am</span></h2>
+    <div class="divider"></div>
+    <div class="about-grid">
+      <div class="about-card reveal">
+        <h3><span>👩‍💻</span> Personal Info</h3>
+        <div class="about-info">
+          <p><strong>Name:</strong> Khushi H.C</p>
+          <p><strong>Location:</strong> Karnataka, India</p>
+          <p><strong>Phone:</strong> +91-7019012506</p>
+          <p><strong>Email:</strong> khushihc.chakravarti@gmail.com</p>
+          <p><strong>Role:</strong> Aspiring Software Engineer</p>
+          <p style="margin-top:1rem;color:var(--text2)">Final-year Computer Science student with a passion for building scalable web applications and solving real-world problems through code.</p>
+        </div>
+      </div>
+      <div class="about-card reveal">
+        <h3><span>🎓</span> Education</h3>
+        <div class="edu-item">
+          <div class="edu-school">Navkis College of Engineering, Hassan</div>
+          <div class="edu-degree">Bachelor of Engineering – Computer Science &amp; Engineering</div>
+          <div class="edu-meta">Year of Graduation: 2026</div>
+          <span class="cgpa">CGPA: 8.8</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-inner">
+    <span class="section-tag">// skills</span>
+    <h2 class="section-title">My <span>Skill Set</span></h2>
+    <div class="divider"></div>
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <div class="skill-icon">☕</div>
+        <h3>Programming Languages</h3>
+        <div class="skill-tags">
+          <span class="tag tag-purple">Java</span>
+          <span class="tag tag-cyan">JavaScript</span>
+          <span class="tag tag-pink">Python</span>
+          <span class="tag tag-green">SQL</span>
+          <span class="tag tag-purple">PL/SQL</span>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">🌐</div>
+        <h3>Web Technologies</h3>
+        <div class="skill-tags">
+          <span class="tag tag-cyan">HTML++</span>
+          <span class="tag tag-pink">CSS</span>
+          <span class="tag tag-purple">JavaScript</span>
+          <span class="tag tag-green">React</span>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">🛠</div>
+        <h3>Tools &amp; Platforms</h3>
+        <div class="skill-tags">
+          <span class="tag tag-green">Git</span>
+          <span class="tag tag-purple">GitHub</span>
+          <span class="tag tag-cyan">VS Code</span>
+          <span class="tag tag-pink">Eclipse</span>
+          <span class="tag tag-green">NetBeans</span>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">🤝</div>
+        <h3>Interpersonal Skills</h3>
+        <div class="skill-tags">
+          <span class="tag tag-cyan">Teamwork</span>
+          <span class="tag tag-purple">Adaptability</span>
+          <span class="tag tag-pink">Quick Learner</span>
+          <span class="tag tag-green">Communication</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-inner">
+    <span class="section-tag">// projects</span>
+    <h2 class="section-title">Featured <span>Projects</span></h2>
+    <div class="divider"></div>
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <div class="project-thumb thumb-food">🍱<div class="thumb-overlay"></div></div>
+        <div class="project-body">
+          <h3>Food Waste Management System</h3>
+          <p>Reduces food wastage by tracking, redistributing, and recycling excess food. Connects food donors with NGOs and waste recyclers to ensure surplus food is used efficiently, promoting sustainability and supporting needy communities.</p>
+          <div class="project-tech">
+            <span class="tag tag-cyan">HTML</span>
+            <span class="tag tag-pink">CSS</span>
+            <span class="tag tag-purple">JavaScript</span>
+            <span class="tag tag-green">PHP</span>
+            <span class="tag tag-cyan">MySQL</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Khushihc" target="_blank">⬡ GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-thumb thumb-forensic">🕵️<div class="thumb-overlay"></div></div>
+        <div class="project-body">
+          <h3>Forensic Face Sketch Creator</h3>
+          <p>A forensic tool that uses AWS Rekognition to compare sketches with stored face images. Enables uploading sketches, searching collections, and displaying matched faces through a Java-based interface.</p>
+          <div class="project-tech">
+            <span class="tag tag-purple">Java</span>
+            <span class="tag tag-cyan">AWS Rekognition</span>
+            <span class="tag tag-pink">AI Concepts</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Khushihc" target="_blank">⬡ GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-thumb thumb-chat">📚<div class="thumb-overlay"></div></div>
+        <div class="project-body">
+          <h3>Online Learning Platform</h3>
+          <p>A comprehensive web-based e-learning application enabling students and educators to browse courses, enroll in programs, and track learning progress. Features course listing, search &amp; filter, enrollment dashboard, and session persistence. Follows responsive design with Flexbox &amp; Media Queries; backend powered by Java Spring Boot with SQL data management.</p>
+          <div class="project-tech">
+            <span class="tag tag-cyan">HTML</span>
+            <span class="tag tag-pink">CSS</span>
+            <span class="tag tag-purple">JavaScript</span>
+            <span class="tag tag-green">Java</span>
+            <span class="tag tag-cyan">Spring Boot</span>
+            <span class="tag tag-pink">SQL</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Khushihc" target="_blank">⬡ GitHub</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="section-inner">
+    <span class="section-tag">// experience</span>
+    <h2 class="section-title">Work <span>Experience</span></h2>
+    <div class="divider"></div>
+    <div style="display:flex;flex-direction:column;gap:1.5rem;">
+      <div class="exp-card reveal">
+        <div class="exp-icon">💼</div>
+        <div>
+          <div class="exp-role">Java Full Stack Intern</div>
+          <div class="exp-company">Glowlogics Solutions Pvt. Ltd.</div>
+          <div class="exp-date">Jan 2026 – Present</div>
+          <ul class="exp-bullets">
+            <li>Currently undergoing training in Full Stack Java Development.</li>
+            <li>Learning and implementing frontend technologies including HTML, CSS, and JavaScript.</li>
+            <li>Gaining practical understanding of client–server architecture and overall web application workflow.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="exp-card reveal">
+        <div class="exp-icon">🚀</div>
+        <div>
+          <div class="exp-role">Full-Stack Web Development Intern</div>
+          <div class="exp-company">Prodigy InfoTech</div>
+          <div class="exp-date">Aug 2025 – Sep 2025 · 1 Month</div>
+          <ul class="exp-bullets">
+            <li>Completed a 1-month internship in Full-Stack Web Development.</li>
+            <li>Worked on front-end and back-end development projects.</li>
+            <li>Received Letter of Recommendation (LOR) for outstanding performance.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section id="achievements">
+  <div class="section-inner">
+    <span class="section-tag">// achievements</span>
+    <h2 class="section-title">Achievements &amp; <span>Leadership</span></h2>
+    <div class="divider"></div>
+    <div class="ach-grid">
+      <div class="ach-card reveal">
+        <div class="ach-icon">🏆</div>
+        <div>
+          <h3>Team Leadership</h3>
+          <p>Successfully led small project teams during academic and extracurricular activities, ensuring collaboration and timely delivery.</p>
+        </div>
+      </div>
+      <div class="ach-card reveal">
+        <div class="ach-icon">🎯</div>
+        <div>
+          <h3>Event Coordination</h3>
+          <p>Volunteered in organizing college technical and cultural events, developing strong organizational and teamwork skills.</p>
+        </div>
+      </div>
+      <div class="ach-card reveal">
+        <div class="ach-icon">🌱</div>
+        <div>
+          <h3>Community Involvement</h3>
+          <p>Contributed as a volunteer in social and campus initiatives including NSS Camp drives and awareness programs.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+  <div class="section-inner">
+    <span class="section-tag">// certifications</span>
+    <h2 class="section-title">My <span>Certifications</span></h2>
+    <div class="divider"></div>
+    <div class="cert-grid">
+      <div class="cert-card reveal">
+        <div class="cert-badge">☕</div>
+        <div>
+          <h3>Java Full Stack Developer</h3>
+          <p>Coursera</p>
+          <span class="cert-status status-done">Completed</span>
+        </div>
+      </div>
+      <div class="cert-card reveal">
+        <div class="cert-badge">🐍</div>
+        <div>
+          <h3>Python for Everybody</h3>
+          <p>Coursera</p>
+          <span class="cert-status status-done">Completed</span>
+        </div>
+      </div>
+      <div class="cert-card reveal">
+        <div class="cert-badge">🌐</div>
+        <div>
+          <h3>Virtual Internship – Full Stack Developer</h3>
+          <p>Edureka</p>
+          <span class="cert-status status-done">Completed</span>
+        </div>
+      </div>
+      <div class="cert-card reveal">
+        <div class="cert-badge">⭐</div>
+        <div>
+          <h3>TCS iON Career Edge – Young Professional</h3>
+          <p>TCS iON · Communication, Presentation, Soft Skills, Career Readiness</p>
+          <span class="cert-status status-done">Certified</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-inner">
+    <span class="section-tag">// contact</span>
+    <h2 class="section-title">Get In <span>Touch</span></h2>
+    <div class="divider"></div>
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <h3>Let's work together!</h3>
+        <p>I'm currently open to entry-level Software Engineer roles. Feel free to reach out via any channel below.</p>
+        <div class="contact-items">
+          <a href="mailto:khushihc.chakravarti@gmail.com" class="contact-item">
+            <div class="ci-icon">✉️</div>
+            <div class="ci-text"><small>Email</small><span>khushihc.chakravarti@gmail.com</span></div>
+          </a>
+          <a href="tel:+917019012506" class="contact-item">
+            <div class="ci-icon">📱</div>
+            <div class="ci-text"><small>Phone</small><span>+91-7019012506</span></div>
+          </a>
+          <a href="https://linkedin.com/in/khushi-hc-046a132a" target="_blank" class="contact-item">
+            <div class="ci-icon">💼</div>
+            <div class="ci-text"><small>LinkedIn</small><span>linkedin.com/in/khushi-hc-046a132a</span></div>
+          </a>
+          <a href="https://github.com/Khushihc" target="_blank" class="contact-item">
+            <div class="ci-icon">🐙</div>
+            <div class="ci-text"><small>GitHub</small><span>github.com/Khushihc</span></div>
+          </a>
+          <div class="contact-item" style="cursor:default">
+            <div class="ci-icon">📍</div>
+            <div class="ci-text"><small>Location</small><span>Karnataka, India</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="reveal">
+        <form class="contact-form" id="contact-form">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="John Doe" required/>
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="john@example.com" required/>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Job Opportunity / Collaboration"/>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Hi Khushi, I'd like to..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center">Send Message ✉️</button>
+          <div class="form-msg" id="form-msg"></div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>Designed &amp; Built with ❤️ by <span>Khushi H.C</span> · Karnataka, India · 2026</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
